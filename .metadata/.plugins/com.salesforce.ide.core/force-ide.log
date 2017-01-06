@@ -154,3 +154,71 @@
  WARN [2017-01-06 15:20:33,112] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
  WARN [2017-01-06 15:20:33,250] (DescribeObjectRegistry.java:clearCache:664) - Clearing cached describes
  WARN [2017-01-06 15:20:33,258] (MetadataFactory.java:clearCache:129) - Clearing the following cached metadata stubs
+ WARN [2017-01-06 17:19:40,314] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-06 17:19:43,318] (BaseRetryAspect.java:isLoginExceptionRetryable:117) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:19:43,332] (BaseRetryAspect.java:isConnectionExceptionRetryable:153) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:19:43,358] (BaseMultiPageEditorPart.java:run:118) - Unable to get describe object for project 'BookSample':Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:19:48,880] (BaseRetryAspect.java:isLoginExceptionRetryable:117) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:19:48,893] (BaseRetryAspect.java:isConnectionExceptionRetryable:153) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:19:48,902] (BaseMultiPageEditorPart.java:run:118) - Unable to get describe object for project 'BookSample':Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:20:02,786] (BaseRetryAspect.java:isLoginExceptionRetryable:117) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:20:02,795] (BaseRetryAspect.java:isConnectionExceptionRetryable:153) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:20:02,806] (BaseMultiPageEditorPart.java:run:118) - Unable to get describe object for project 'BookSample':Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:20:41,113] (BaseRetryAspect.java:isLoginExceptionRetryable:117) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out. Are you at a new location? When accessing Salesforce--either via a desktop client or the API--from outside of your company’s trusted networks, you must add a security token to your password to log in. To get your new security token, log in to Salesforce. From your personal settings, enter Reset My Security Token in the Quick Find box, then select Reset My Security Token.
+ WARN [2017-01-06 17:20:41,123] (BaseRetryAspect.java:isConnectionExceptionRetryable:153) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out. Are you at a new location? When accessing Salesforce--either via a desktop client or the API--from outside of your company’s trusted networks, you must add a security token to your password to log in. To get your new security token, log in to Salesforce. From your personal settings, enter Reset My Security Token in the Quick Find box, then select Reset My Security Token.
+ WARN [2017-01-06 17:20:41,133] (ProjectPropertyPage.java:updateProject:169) - Invalid login credentials: Invalid username, password, security token; or user locked out. Are you at a new location? When accessing Salesforce--either via a desktop client or the API--from outside of your company’s trusted networks, you must add a security token to your password to log in. To get your new security token, log in to Salesforce. From your personal settings, enter Reset My Security Token in the Quick Find box, then select Reset My Security Token.
+ WARN [2017-01-06 17:20:58,591] (BaseRetryAspect.java:isLoginExceptionRetryable:117) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:20:58,600] (BaseRetryAspect.java:isConnectionExceptionRetryable:153) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:20:58,609] (ProjectPropertyPage.java:updateProject:169) - Invalid login credentials: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:43:38,501] (BaseRetryAspect.java:isLoginExceptionRetryable:117) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out. Are you at a new location? When accessing Salesforce--either via a desktop client or the API--from outside of your company’s trusted networks, you must add a security token to your password to log in. To get your new security token, log in to Salesforce. From your personal settings, enter Reset My Security Token in the Quick Find box, then select Reset My Security Token.
+ WARN [2017-01-06 17:43:38,517] (BaseRetryAspect.java:isConnectionExceptionRetryable:153) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out. Are you at a new location? When accessing Salesforce--either via a desktop client or the API--from outside of your company’s trusted networks, you must add a security token to your password to log in. To get your new security token, log in to Salesforce. From your personal settings, enter Reset My Security Token in the Quick Find box, then select Reset My Security Token.
+ WARN [2017-01-06 17:43:38,527] (ProjectPropertyPage.java:updateProject:169) - Invalid login credentials: Invalid username, password, security token; or user locked out. Are you at a new location? When accessing Salesforce--either via a desktop client or the API--from outside of your company’s trusted networks, you must add a security token to your password to log in. To get your new security token, log in to Salesforce. From your personal settings, enter Reset My Security Token in the Quick Find box, then select Reset My Security Token.
+ WARN [2017-01-06 17:44:05,792] (BaseRetryAspect.java:isLoginExceptionRetryable:117) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:44:05,800] (BaseRetryAspect.java:isConnectionExceptionRetryable:153) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:44:05,808] (ProjectPropertyPage.java:updateProject:169) - Invalid login credentials: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:44:08,719] (BaseRetryAspect.java:isLoginExceptionRetryable:117) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:44:08,727] (BaseRetryAspect.java:isConnectionExceptionRetryable:153) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:44:08,738] (ProjectPropertyPage.java:updateProject:169) - Invalid login credentials: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:44:22,235] (ConnectionFactory.java:clearCache:217) - No cached connections
+ WARN [2017-01-06 17:44:22,266] (DescribeObjectRegistry.java:clearCache:661) - No cached describes
+ WARN [2017-01-06 17:44:22,286] (MetadataFactory.java:clearCache:126) - No cached metadata stubs
+ WARN [2017-01-06 17:44:53,858] (BaseRetryAspect.java:isLoginExceptionRetryable:117) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:44:54,814] (BaseRetryAspect.java:isConnectionExceptionRetryable:153) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+ WARN [2017-01-06 17:44:54,875] (BaseMultiPageEditorPart.java:run:118) - Unable to get describe object for project 'BookSample':Invalid username, password, security token; or user locked out.
+ERROR [2017-01-06 17:46:17,906] (SyncServiceListenerBroadcaster.java:handleException:59) - Error executing a contributed ISyncServiceListener
+java.lang.NullPointerException
+	at com.salesforce.ide.core.model.ComponentList.getComponentFactory(ComponentList.java:62)
+	at com.salesforce.ide.core.model.ComponentList.getComponentListForComponentType(ComponentList.java:266)
+	at com.salesforce.ide.debug.ui.sync.SyncActionListener.collectDebuggerElements(SyncActionListener.java:154)
+	at com.salesforce.ide.debug.ui.sync.SyncActionListener.invalidateApexModelManager(SyncActionListener.java:122)
+	at com.salesforce.ide.debug.ui.sync.SyncActionListener.projectSync(SyncActionListener.java:114)
+	at com.salesforce.ide.core.services.hooks.SyncServiceListenerBroadcaster$1.run(SyncServiceListenerBroadcaster.java:54)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at com.salesforce.ide.core.services.hooks.SyncServiceListenerBroadcaster.executeExtension(SyncServiceListenerBroadcaster.java:62)
+	at com.salesforce.ide.core.services.hooks.SyncServiceListenerBroadcaster.broadcast(SyncServiceListenerBroadcaster.java:40)
+	at com.salesforce.ide.core.model.ProjectPackageList.saveResources(ProjectPackageList.java:1210)
+	at com.salesforce.ide.core.model.ProjectPackageList.saveResources(ProjectPackageList.java:1123)
+	at com.salesforce.ide.core.services.ForceProjectRefreshJob$ForceProjectRefreshProject.doSaveResources(ForceProjectRefreshJob.java:62)
+	at com.salesforce.ide.core.services.ForceProjectRefreshJob.runInWorkspace(ForceProjectRefreshJob.java:42)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
