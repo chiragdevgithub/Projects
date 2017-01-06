@@ -5,7 +5,6 @@ ExecuteAnonymousDb=Info
 ExecuteAnonymousSystem=Debug
 ExecuteAnonymousValidation=Info
 ExecuteAnonymousVisualforce=Info
-ExecuteAnonymousWorkflow=Info
 RunTestApex_code=Debug
 RunTestApex_profiling=Info
 RunTestCallout=Info
