@@ -14,7 +14,7 @@
 
                             System.debug('Price after trigger fired: ' + b.Price__c);
    
-                            System.assertEquals(90, b.Price__c);//ab
+                            System.assertEquals(90, b.Price__c);
 
                     }
 

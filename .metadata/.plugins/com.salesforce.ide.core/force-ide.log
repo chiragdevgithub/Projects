@@ -222,3 +222,64 @@ java.lang.NullPointerException
 	at com.salesforce.ide.core.services.ForceProjectRefreshJob.runInWorkspace(ForceProjectRefreshJob.java:42)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+ WARN [2017-01-06 19:05:44,265] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-01-06 19:05:44,325] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-01-06 19:05:44,349] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-01-06 19:05:44,364] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-01-06 19:05:44,420] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-01-06 19:05:44,452] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'MatchingRule': Unable to get bean for id 'MatchingRule'
+ WARN [2017-01-06 19:05:44,463] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-01-06 19:05:44,473] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-01-06 19:05:44,523] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'SharingCriteriaRule': Unable to get bean for id 'SharingCriteriaRule'
+ WARN [2017-01-06 19:05:44,532] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'SharingOwnerRule': Unable to get bean for id 'SharingOwnerRule'
+ WARN [2017-01-06 19:05:44,542] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ERROR [2017-01-06 19:07:30,845] (SyncServiceListenerBroadcaster.java:handleException:59) - Error executing a contributed ISyncServiceListener
+java.lang.NullPointerException
+	at com.salesforce.ide.core.model.ComponentList.getComponentFactory(ComponentList.java:62)
+	at com.salesforce.ide.core.model.ComponentList.getComponentListForComponentType(ComponentList.java:266)
+	at com.salesforce.ide.debug.ui.sync.SyncActionListener.collectDebuggerElements(SyncActionListener.java:154)
+	at com.salesforce.ide.debug.ui.sync.SyncActionListener.invalidateApexModelManager(SyncActionListener.java:122)
+	at com.salesforce.ide.debug.ui.sync.SyncActionListener.projectSync(SyncActionListener.java:114)
+	at com.salesforce.ide.core.services.hooks.SyncServiceListenerBroadcaster$1.run(SyncServiceListenerBroadcaster.java:54)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at com.salesforce.ide.core.services.hooks.SyncServiceListenerBroadcaster.executeExtension(SyncServiceListenerBroadcaster.java:62)
+	at com.salesforce.ide.core.services.hooks.SyncServiceListenerBroadcaster.broadcast(SyncServiceListenerBroadcaster.java:40)
+	at com.salesforce.ide.core.model.ProjectPackageList.saveResources(ProjectPackageList.java:1210)
+	at com.salesforce.ide.core.model.ProjectPackageList.saveResources(ProjectPackageList.java:1127)
+	at com.salesforce.ide.core.services.ProjectService$1.run(ProjectService.java:2103)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at com.salesforce.ide.core.services.ProjectService.handleRetrieveResult(ProjectService.java:2099)
+	at com.salesforce.ide.ui.actions.RefreshResourceActionController.refreshSourceFolder(RefreshResourceActionController.java:238)
+	at com.salesforce.ide.ui.actions.RefreshResourceActionController.refreshResources(RefreshResourceActionController.java:146)
+	at com.salesforce.ide.ui.actions.RefreshResourceAction$1.execute(RefreshResourceAction.java:77)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+ERROR [2017-01-06 19:33:21,078] (SyncServiceListenerBroadcaster.java:handleException:59) - Error executing a contributed ISyncServiceListener
+java.lang.NullPointerException
+	at com.salesforce.ide.core.model.ComponentList.getComponentFactory(ComponentList.java:62)
+	at com.salesforce.ide.core.model.ComponentList.getComponentListForComponentType(ComponentList.java:266)
+	at com.salesforce.ide.debug.ui.sync.SyncActionListener.collectDebuggerElements(SyncActionListener.java:154)
+	at com.salesforce.ide.debug.ui.sync.SyncActionListener.invalidateApexModelManager(SyncActionListener.java:122)
+	at com.salesforce.ide.debug.ui.sync.SyncActionListener.projectSync(SyncActionListener.java:114)
+	at com.salesforce.ide.core.services.hooks.SyncServiceListenerBroadcaster$1.run(SyncServiceListenerBroadcaster.java:54)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at com.salesforce.ide.core.services.hooks.SyncServiceListenerBroadcaster.executeExtension(SyncServiceListenerBroadcaster.java:62)
+	at com.salesforce.ide.core.services.hooks.SyncServiceListenerBroadcaster.broadcast(SyncServiceListenerBroadcaster.java:40)
+	at com.salesforce.ide.core.model.ProjectPackageList.saveResources(ProjectPackageList.java:1210)
+	at com.salesforce.ide.core.model.ProjectPackageList.saveResources(ProjectPackageList.java:1127)
+	at com.salesforce.ide.core.services.ProjectService$1.run(ProjectService.java:2103)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at com.salesforce.ide.core.services.ProjectService.handleRetrieveResult(ProjectService.java:2099)
+	at com.salesforce.ide.ui.actions.RefreshResourceActionController.refreshSourceFolder(RefreshResourceActionController.java:238)
+	at com.salesforce.ide.ui.actions.RefreshResourceActionController.refreshResources(RefreshResourceActionController.java:146)
+	at com.salesforce.ide.ui.actions.RefreshResourceAction$1.execute(RefreshResourceAction.java:77)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)

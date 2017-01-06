@@ -1,0 +1,10 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is the 2nd page.
+  
+ <br> hello {!$User.FirstName}!</br>
+ 
+ 
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>
