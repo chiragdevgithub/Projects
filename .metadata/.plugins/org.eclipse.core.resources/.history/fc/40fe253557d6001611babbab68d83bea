@@ -1,0 +1,21 @@
+public  class Pallindrome {
+
+	public  void checkPallindrome(String message){
+		String revString;
+		integer i;
+		
+		
+			for( i=message.length()-1;i>=0;--i){
+			revString +=str.charAt(i);
+			}
+			
+		if(revstring.equalsIgnoreCase(message)){
+			System.debug('The string is Palindrome');}
+			else{
+		System.debug('Not Palindrome');}
+		
+	
+	
+
+
+}

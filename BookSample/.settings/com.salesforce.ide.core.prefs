@@ -1,4 +1,4 @@
-ExecuteAnonymousApex_code=Debug
+ExecuteAnonymousApex_code=Warn
 ExecuteAnonymousApex_profiling=Info
 ExecuteAnonymousCallout=Info
 ExecuteAnonymousDb=Info

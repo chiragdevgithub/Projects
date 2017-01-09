@@ -1,0 +1,17 @@
+public class StaticExample {
+
+void evaluate()
+{
+    static integer static_var=1;
+    integer non_static_var=1;
+
+    static_var++;
+    non_static_var++;
+
+   system.debug(static_var);
+    system.debug(non_static_var);
+}
+
+
+
+}

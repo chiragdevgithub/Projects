@@ -283,3 +283,539 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
 	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+ERROR [2017-01-06 20:34:12,580] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-06 21:03:20,834] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
+ WARN [2017-01-06 21:03:20,880] (DescribeObjectRegistry.java:clearCache:664) - Clearing cached describes
+ WARN [2017-01-06 21:03:20,890] (MetadataFactory.java:clearCache:129) - Clearing the following cached metadata stubs
+ WARN [2017-01-09 14:56:41,218] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-01-09 14:56:41,240] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-01-09 14:56:41,269] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-01-09 14:56:41,302] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-01-09 14:56:41,312] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-01-09 14:56:41,337] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-01-09 14:56:41,352] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-01-09 14:56:41,362] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-01-09 14:56:41,372] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-01-09 14:56:44,876] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-01-09 14:56:44,888] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-01-09 14:56:44,900] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-01-09 14:56:44,948] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-01-09 14:56:44,962] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-01-09 14:56:44,972] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-01-09 14:56:44,988] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-01-09 14:56:44,998] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-01-09 14:56:45,007] (ComponentFactory.java:getComponentBean:1154) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-01-09 14:58:41,685] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/PrimeNumber.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 14:58:42,597] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 14:58:42,610] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 14:58:42,852] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 14:58:42,926] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 14:59:05,734] (Component.java:hasRemoteChanged:947) - Conflict found! Attribute compare of local and remote ApexClass 'classes/ApexSampleTest.cls' [unpackaged] are NOT equal
+ WARN [2017-01-09 14:59:05,747] (BuilderPayload.java:handleConflict:386) - Conflict found while preparing to save 'ApexSampleTest.cls' to server.  Remote instance has been updated since last save or sync.  Use the Synchronize Perspective to resolve the conflict.
+ WARN [2017-01-09 14:59:05,757] (Component.java:hasRemoteChanged:947) - Conflict found! Attribute compare of local and remote ApexClass 'classes/ApexSampleTest.cls-meta.xml' [unpackaged] are NOT equal
+ WARN [2017-01-09 14:59:05,768] (BuilderPayload.java:handleConflict:386) - Conflict found while preparing to save 'ApexSampleTest.cls-meta.xml' to server.  Remote instance has been updated since last save or sync.  Use the Synchronize Perspective to resolve the conflict.
+ WARN [2017-01-09 15:11:14,352] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:13:26,125] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:15:49,664] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:16:32,556] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:18:46,844] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:19:36,746] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:21:18,072] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:21:36,316] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:24:26,443] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:25:40,119] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:29:29,705] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:35:02,219] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/Pallindrome.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 15:35:02,410] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 15:35:02,420] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 15:35:02,448] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 15:35:02,548] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:40:14,808] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:42:14,954] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:43:08,608] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:43:36,909] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:48:22,218] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:49:25,707] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 15:50:32,075] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 15:50:32,088] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 15:51:45,125] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 15:58:01,862] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 15:59:15,079] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:00:01,657] (BaseAction.java:run:202) - Pre-run failed.  Action not executed.
+ WARN [2017-01-09 16:00:32,584] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:00:55,280] (BaseAction.java:run:202) - Pre-run failed.  Action not executed.
+ WARN [2017-01-09 16:01:19,918] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:01:29,009] (BaseAction.java:run:202) - Pre-run failed.  Action not executed.
+ WARN [2017-01-09 16:02:15,047] (BaseAction.java:run:202) - Pre-run failed.  Action not executed.
+ WARN [2017-01-09 16:02:49,100] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 16:03:55,356] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 16:04:01,368] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 16:04:01,419] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 16:04:24,567] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:04:33,156] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:04:49,107] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 16:06:53,450] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 16:16:12,176] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 16:21:44,862] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:27:59,365] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:28:10,565] (BaseAction.java:run:202) - Pre-run failed.  Action not executed.
+ WARN [2017-01-09 16:28:27,902] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:28:40,665] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 16:28:40,684] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 16:29:04,577] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:29:18,080] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 16:29:18,099] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 16:29:41,251] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:29:58,587] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 16:29:58,601] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 16:33:36,912] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/Customer.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 16:33:37,107] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 16:33:37,164] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 16:33:37,175] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 16:33:37,354] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:38:05,902] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 16:38:35,536] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 16:39:33,980] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:40:11,108] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:48:58,366] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:50:10,381] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:50:53,769] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:51:36,178] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/Shape.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 16:51:36,348] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 16:51:36,359] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 16:51:36,369] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 16:51:36,541] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:53:52,387] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:55:30,091] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:56:07,916] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/DerivedShape.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 16:56:08,130] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 16:56:08,141] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 16:56:08,149] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 16:56:08,307] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:56:56,382] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:57:32,324] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 16:57:45,920] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 16:58:07,990] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ERROR [2017-01-09 16:58:21,224] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 16:58:24,316] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 16:58:24,327] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 17:00:28,839] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 17:00:38,028] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 17:00:41,805] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 17:00:41,817] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 17:01:41,371] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ERROR [2017-01-09 17:01:58,475] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ERROR [2017-01-09 17:02:08,130] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 17:02:15,300] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 17:02:15,311] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 17:04:30,859] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:04:46,559] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:05:24,661] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 17:05:24,673] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ERROR [2017-01-09 17:05:35,137] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 17:05:41,193] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 17:05:41,203] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 17:06:01,473] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:22:33,608] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/StaticExample.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 17:22:33,791] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 17:22:33,818] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 17:22:33,846] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 17:22:34,034] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:31:30,612] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:40:53,139] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:43:01,011] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 17:45:50,960] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 17:47:20,812] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:47:33,148] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 17:47:33,158] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 17:47:42,608] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:48:36,198] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:49:21,272] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:54:51,068] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/AbstractExample.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 17:54:51,260] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 17:54:51,270] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 17:54:51,279] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 17:54:51,458] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:57:12,576] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:57:37,929] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/AbsractExample.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 17:57:38,397] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 17:57:38,406] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 17:57:38,420] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 17:57:38,539] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 17:58:25,306] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ERROR [2017-01-09 17:58:25,315] (ComponentList.java:add:354) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 17:58:25,324] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 17:58:27,123] (BaseComponentMultiPageEditorPart.java:getCompositeEditorInput:172) - Unable load metadata file for file 'src/classes/Derived.cls'
+com.salesforce.ide.core.factories.FactoryException: Unable to find composite file from path 'classes/Derived.cls-meta.xml'
+	at com.salesforce.ide.core.factories.ComponentFactory.getCompositeComponentFromFile(ComponentFactory.java:1042)
+	at com.salesforce.ide.ui.editors.internal.BaseComponentMultiPageEditorPart.getCompositeEditorInput(BaseComponentMultiPageEditorPart.java:164)
+	at com.salesforce.ide.ui.editors.internal.BaseComponentMultiPageEditorPart.setInput(BaseComponentMultiPageEditorPart.java:127)
+	at org.eclipse.ui.part.MultiPageEditorPart.init(MultiPageEditorPart.java:793)
+	at com.salesforce.ide.ui.editors.internal.BaseComponentMultiPageEditorPart.init(BaseComponentMultiPageEditorPart.java:113)
+	at com.salesforce.ide.ui.editors.apex.ApexCodeMultiPageEditor.init(ApexCodeMultiPageEditor.java:64)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:359)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:306)
+	at sun.reflect.GeneratedMethodAccessor76.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:877)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:857)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:119)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:333)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:102)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:71)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:53)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:949)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:633)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:735)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:700)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:685)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1147)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:65)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:41)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4688)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:205)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:80)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:58)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:576)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:543)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:619)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:331)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1046)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3112)
+	at org.eclipse.ui.internal.WorkbenchPage.access$21(WorkbenchPage.java:3034)
+	at org.eclipse.ui.internal.WorkbenchPage$8.run(WorkbenchPage.java:3016)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3012)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2976)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2967)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:534)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:493)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:360)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:167)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:268)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:233)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:275)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:251)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:376)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:538)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:47)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:866)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:864)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1152)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1256)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:269)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:309)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+ERROR [2017-01-09 17:58:43,913] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 17:59:08,985] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ WARN [2017-01-09 17:59:08,995] (ProjectPackageList.java:addComponent:673) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 17:59:09,005] (ComponentFactory.java:getCompositeComponentFromComponent:1109) - Unable to load 'classes/Derived.cls-meta.xml' from project - composite component file resource is null
+ERROR [2017-01-09 17:59:10,390] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 17:59:11,767] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ WARN [2017-01-09 17:59:11,779] (ProjectPackageList.java:addComponent:673) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 17:59:11,794] (ComponentFactory.java:getCompositeComponentFromComponent:1109) - Unable to load 'classes/Derived.cls-meta.xml' from project - composite component file resource is null
+ WARN [2017-01-09 17:59:11,817] (ProjectPackage.java:addComponentsToZip:488) - File 'C:\Users\chirag.lapasia\Desktop\workspacesalesforce\Practice Assignments\src\classes\Derived.cls-meta.xml' does not exist
+ WARN [2017-01-09 17:59:13,848] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 17:59:13,864] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 17:59:33,607] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ERROR [2017-01-09 17:59:33,618] (ComponentList.java:add:354) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 17:59:43,223] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ WARN [2017-01-09 17:59:43,236] (ProjectPackageList.java:addComponent:673) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 17:59:43,244] (ComponentFactory.java:getCompositeComponentFromComponent:1109) - Unable to load 'classes/Derived.cls-meta.xml' from project - composite component file resource is null
+ERROR [2017-01-09 17:59:44,579] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 17:59:45,792] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ WARN [2017-01-09 17:59:45,801] (ProjectPackageList.java:addComponent:673) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 17:59:45,810] (ComponentFactory.java:getCompositeComponentFromComponent:1109) - Unable to load 'classes/Derived.cls-meta.xml' from project - composite component file resource is null
+ WARN [2017-01-09 17:59:45,834] (ProjectPackage.java:addComponentsToZip:488) - File 'C:\Users\chirag.lapasia\Desktop\workspacesalesforce\Practice Assignments\src\classes\Derived.cls-meta.xml' does not exist
+ WARN [2017-01-09 17:59:47,782] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 17:59:47,795] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:01:09,065] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ERROR [2017-01-09 18:01:09,074] (ComponentList.java:add:354) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 18:01:16,026] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ WARN [2017-01-09 18:01:16,035] (ProjectPackageList.java:addComponent:673) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 18:01:16,044] (ComponentFactory.java:getCompositeComponentFromComponent:1109) - Unable to load 'classes/Derived.cls-meta.xml' from project - composite component file resource is null
+ERROR [2017-01-09 18:01:18,496] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 18:01:19,933] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ WARN [2017-01-09 18:01:19,941] (ProjectPackageList.java:addComponent:673) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 18:01:19,952] (ComponentFactory.java:getCompositeComponentFromComponent:1109) - Unable to load 'classes/Derived.cls-meta.xml' from project - composite component file resource is null
+ WARN [2017-01-09 18:01:19,973] (ProjectPackage.java:addComponentsToZip:488) - File 'C:\Users\chirag.lapasia\Desktop\workspacesalesforce\Practice Assignments\src\classes\Derived.cls-meta.xml' does not exist
+ WARN [2017-01-09 18:01:22,937] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:01:22,947] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:02:21,630] (ComponentController.java:checkInFolder:181) - Component resource 'Derived.cls' already exists in project
+ WARN [2017-01-09 18:02:26,509] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/DerivedOverride.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 18:02:26,682] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 18:02:26,694] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 18:02:26,749] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 18:02:26,839] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:02:40,590] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ERROR [2017-01-09 18:02:40,599] (ComponentList.java:add:354) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 18:02:47,214] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ERROR [2017-01-09 18:02:47,224] (ComponentList.java:add:354) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 18:03:45,901] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:03:52,433] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 18:04:00,472] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 18:04:04,853] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:04:04,863] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:10:33,595] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:12:55,649] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:13:02,497] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:13:18,336] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:13:18,346] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:13:33,741] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 18:14:23,721] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 18:14:27,780] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:14:27,792] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:14:56,694] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 18:15:03,281] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 18:15:06,425] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:15:06,434] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:15:29,761] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 18:15:38,046] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 18:18:55,720] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:19:20,962] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:22:00,068] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:23:49,925] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ERROR [2017-01-09 18:23:49,936] (ComponentList.java:add:354) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 18:23:54,195] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ WARN [2017-01-09 18:23:54,204] (ProjectPackageList.java:addComponent:673) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 18:23:54,212] (ComponentFactory.java:getCompositeComponentFromComponent:1109) - Unable to load 'classes/Derived.cls-meta.xml' from project - composite component file resource is null
+ERROR [2017-01-09 18:23:55,560] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 18:23:56,335] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ WARN [2017-01-09 18:23:56,344] (ProjectPackageList.java:addComponent:673) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 18:23:56,354] (ComponentFactory.java:getCompositeComponentFromComponent:1109) - Unable to load 'classes/Derived.cls-meta.xml' from project - composite component file resource is null
+ WARN [2017-01-09 18:23:56,374] (ProjectPackage.java:addComponentsToZip:488) - File 'C:\Users\chirag.lapasia\Desktop\workspacesalesforce\Practice Assignments\src\classes\Derived.cls-meta.xml' does not exist
+ WARN [2017-01-09 18:23:58,329] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:23:58,339] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:24:18,275] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ERROR [2017-01-09 18:24:18,284] (ComponentList.java:add:354) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 18:24:23,119] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ WARN [2017-01-09 18:24:23,133] (ProjectPackageList.java:addComponent:673) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 18:24:23,143] (ComponentFactory.java:getCompositeComponentFromComponent:1109) - Unable to load 'classes/Derived.cls-meta.xml' from project - composite component file resource is null
+ERROR [2017-01-09 18:24:24,521] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 18:24:25,985] (ProjectService.java:getComponentFileForFilePath:740) - Resource not found or not a file for filepath 'src/classes/Derived.cls-meta.xml'
+ WARN [2017-01-09 18:24:25,993] (ProjectPackageList.java:addComponent:673) - Component composite file not found at filepath 'classes/Derived.cls-meta.xml' for component ApexClass 'classes/Derived.cls' [unpackaged]
+ WARN [2017-01-09 18:24:26,003] (ComponentFactory.java:getCompositeComponentFromComponent:1109) - Unable to load 'classes/Derived.cls-meta.xml' from project - composite component file resource is null
+ WARN [2017-01-09 18:24:26,022] (ProjectPackage.java:addComponentsToZip:488) - File 'C:\Users\chirag.lapasia\Desktop\workspacesalesforce\Practice Assignments\src\classes\Derived.cls-meta.xml' does not exist
+ WARN [2017-01-09 18:24:29,533] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:24:29,544] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:25:27,695] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 18:25:39,046] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 18:25:49,185] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:25:49,198] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:27:07,992] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 18:27:38,336] (MetadataOperationsRetryAspect.java:metadataOperationsRetry:34) - ForceRemoteException occurred while attempting to perform a metadata operation
+ WARN [2017-01-09 18:27:38,346] (BaseRetryAspect.java:isExceptionRetryable:221) - General evaluation deemed exception not retry-able:
+ ConnectException: Connection timed out: connect
+ERROR [2017-01-09 18:27:38,354] (PackageRetrieveService.java:retrieveWork:1079) - Unable to retrieve components: ConnectException: Connection timed out: connect
+ WARN [2017-01-09 18:27:38,388] (ActionController.java:syncCheck:285) - Unable to perform sync check: ConnectException: Connection timed out: connect
+ERROR [2017-01-09 18:28:03,515] (MetadataOperationsRetryAspect.java:metadataOperationsRetry:34) - ForceRemoteException occurred while attempting to perform a metadata operation
+ WARN [2017-01-09 18:28:03,523] (BaseRetryAspect.java:isExceptionRetryable:221) - General evaluation deemed exception not retry-able:
+ ConnectException: Connection timed out: connect
+ERROR [2017-01-09 18:28:03,533] (PackageDeployService.java:deployWork:303) - Unable to retrieve components: ConnectException: Connection timed out: connect
+ERROR [2017-01-09 18:28:03,571] (SaveToServerAction.java:saveToServer:105) - Unable to save resource(s)
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(Unknown Source)
+	at com.sforce.ws.transport.JdkHttpTransport.connectRaw(JdkHttpTransport.java:136)
+	at com.sforce.ws.transport.JdkHttpTransport.connectLocal(JdkHttpTransport.java:100)
+	at com.sforce.ws.transport.JdkHttpTransport.connectLocal(JdkHttpTransport.java:95)
+	at com.sforce.ws.transport.JdkHttpTransport.connect(JdkHttpTransport.java:91)
+	at com.sforce.ws.transport.SoapConnection.send(SoapConnection.java:95)
+	at com.sforce.soap.metadata.MetadataConnection.deploy(MetadataConnection.java:264)
+	at com.salesforce.ide.core.remote.MetadataStubExt.deploy(MetadataStubExt.java:475)
+	at com.salesforce.ide.core.remote.MetadataStubExt$$FastClassByCGLIB$$9404e285.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:700)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:149)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:77)
+	at com.salesforce.ide.core.internal.aspects.MetadataOperationsRetryAspect.metadataOperationsRetry(MetadataOperationsRetryAspect.java:32)
+	at sun.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:616)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:90)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:635)
+	at com.salesforce.ide.core.remote.MetadataStubExt$$EnhancerByCGLIB$$9424caa8.deploy(<generated>)
+	at com.salesforce.ide.core.services.PackageDeployService.deployWork(PackageDeployService.java:287)
+	at com.salesforce.ide.core.services.PackageDeployService.deploy(PackageDeployService.java:156)
+	at com.salesforce.ide.core.services.PackageDeployService.deploy(PackageDeployService.java:139)
+	at com.salesforce.ide.core.services.PackageDeployService.deploy(PackageDeployService.java:124)
+	at com.salesforce.ide.ui.actions.SaveToServerActionController.deploy(SaveToServerActionController.java:140)
+	at com.salesforce.ide.ui.actions.SaveToServerActionController.saveResourcesToServer(SaveToServerActionController.java:123)
+	at com.salesforce.ide.ui.actions.SaveToServerAction$1.execute(SaveToServerAction.java:73)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+ WARN [2017-01-09 18:33:10,355] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:34:22,056] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:34:22,069] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:35:54,121] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:36:36,082] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:40:12,101] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:43:55,419] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:44:14,601] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:44:14,612] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:44:40,165] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:45:46,094] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:45:50,691] (BaseAction.java:run:202) - Pre-run failed.  Action not executed.
+ WARN [2017-01-09 18:48:00,109] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:53:39,691] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/StringReplace.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 18:53:39,863] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 18:53:39,887] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 18:53:39,905] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 18:53:40,033] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 18:56:38,673] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 18:56:52,004] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 18:56:56,447] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:56:56,458] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ERROR [2017-01-09 18:57:38,989] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 18:57:43,649] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 18:57:43,661] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 18:57:52,531] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 18:58:01,555] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 19:00:06,888] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 19:04:49,463] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 19:08:17,780] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 19:16:18,837] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/StringLength.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 19:16:19,088] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 19:16:19,099] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 19:16:19,113] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 19:16:19,282] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 19:22:57,393] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 19:25:25,470] (BaseAction.java:run:202) - Pre-run failed.  Action not executed.
+ WARN [2017-01-09 19:26:00,714] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 19:27:15,608] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 19:27:30,157] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 19:27:30,169] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 19:27:41,727] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 19:28:01,180] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 19:28:01,192] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 19:29:47,370] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/Unique.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-01-09 19:29:47,591] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2017-01-09 19:29:47,602] (Utils.java:loadDocument:799) - Unable to load document: C:\Users\chirag.lapasia\Desktop\workspacesalesforce\.metadata\.plugins\org.eclipse.core.resources\.projects\Practice Assignments\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-01-09 19:29:47,619] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-01-09 19:29:47,772] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2017-01-09 19:37:24,400] (ProjectPackageList.java:generateComponents:482) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-01-09 19:38:02,955] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 19:38:13,691] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 19:38:13,703] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 19:38:31,472] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 19:38:47,174] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 19:38:47,186] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 19:39:19,173] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 19:42:49,230] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 19:43:03,211] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 19:43:03,221] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 20:11:48,837] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:12:09,801] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:15:12,412] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:15:24,060] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 20:15:24,072] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 20:15:33,883] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:15:51,583] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 20:15:51,594] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 20:16:01,438] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:16:11,680] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 20:16:11,690] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 20:16:42,216] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:16:55,015] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 20:16:55,026] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 20:20:34,646] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 20:20:34,659] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 20:21:34,583] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:21:44,300] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 20:21:44,310] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 20:21:58,957] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:22:07,195] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:22:22,062] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 20:22:22,072] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 20:22:39,600] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:24:37,562] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:24:49,311] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 20:24:49,325] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 20:25:04,350] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:26:29,537] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:28:24,531] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:29:08,170] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:30:09,333] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:33:26,016] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:34:34,936] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:34:59,664] (ProjectService.java:handleDeployResult:1906) - Save failed!
+ WARN [2017-01-09 20:34:59,675] (ProjectService.java:handleRetrieveResult:2078) - Nothing to save to project - retrieve result is empty
+ WARN [2017-01-09 20:35:34,870] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 20:41:03,336] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-01-09 21:37:31,284] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource

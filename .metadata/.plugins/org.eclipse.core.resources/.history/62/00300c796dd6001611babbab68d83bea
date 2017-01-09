@@ -1,0 +1,21 @@
+public  class Pallindrome {
+
+	public  void checkPallindrome(String message){
+		String revString;
+		integer i,flag=0,len;
+		
+		
+			len=message.length();
+	for (i=0;i<len;i++) {
+		if(message[i]==message[len-i-1])
+		     flag=flag+1;
+	}
+	if(flag==len)
+	            system.debug('pallindrome');
+	             else
+	             system.debug('not pallindrome');
+	
+	
+	}
+
+}

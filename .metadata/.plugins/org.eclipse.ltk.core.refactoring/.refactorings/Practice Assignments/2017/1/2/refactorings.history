@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Practice Assignments/src/classes/AbsractExample.cls&apos; to &apos;Derived.cls&apos;" description="Rename resource &apos;AbsractExample.cls&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/classes/AbsractExample.cls" name="Derived.cls" stamp="1483964905034" updateReferences="true"/>
+</session>

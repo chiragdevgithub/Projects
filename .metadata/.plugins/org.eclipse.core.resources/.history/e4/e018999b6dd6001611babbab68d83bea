@@ -1,0 +1,14 @@
+public  class Pallindrome {
+
+	Boolean isPalindrome(String message) {
+		Integer i;
+  		Integer n = message.length();
+ 		 for (i = 0; i < (n/2); ++i) {
+    		 if (message.charAt(i) != message.charAt(n - i - 1)) {
+        	 return false;
+    		 }
+  		}
+
+  	return true;
+	}
+}

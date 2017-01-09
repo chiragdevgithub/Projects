@@ -1,0 +1,10 @@
+public  class DerivedShape extends Shape {
+
+public integer getArea(integer width,integer height)
+{
+	return width * height * 5;
+}
+
+
+
+}

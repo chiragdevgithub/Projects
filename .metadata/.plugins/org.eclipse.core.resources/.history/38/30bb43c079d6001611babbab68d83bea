@@ -1,0 +1,15 @@
+public class StringLength {
+	
+		public void lengthMessage(String message) {
+			Integer i=0,count=0;
+			String[] stringCharacters = message.split('');
+			while(stringCharacters[i]){
+				i++;
+			}
+			system.debug(i);
+			
+		}
+
+
+
+}

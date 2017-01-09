@@ -1,0 +1,18 @@
+public class StringLength {
+	
+		public Integer lengthMessage(String message) {
+			Integer i=0,len=0;
+			
+			
+			while (true){
+				
+				message.charAt(len);
+				len++;
+				
+			}
+			return len;
+		}
+
+
+
+}

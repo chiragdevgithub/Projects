@@ -1,0 +1,21 @@
+public class StaticExample {
+ 
+   Integer rollno;  
+   String name;  
+   static String college ='KKW';  
+   
+   
+  public StaticExample(Integer roll,String nameStud){
+   		rollno=roll;
+   		name=nameStud;
+   		
+   }
+	
+	public void display(){
+		system.debug(rollno);
+		system.debug(name);
+		system.debug(college);
+	}
+
+
+}

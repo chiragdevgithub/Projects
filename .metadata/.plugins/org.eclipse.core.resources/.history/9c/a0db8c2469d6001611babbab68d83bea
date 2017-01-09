@@ -1,0 +1,16 @@
+public virtual class Shape {
+ integer width;
+ integer height;
+
+
+
+
+public virtual integer getArea(integer width,integer height)
+{
+	return width * height;
+}
+
+
+}
+
+

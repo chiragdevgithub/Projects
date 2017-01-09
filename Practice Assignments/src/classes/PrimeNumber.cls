@@ -1,0 +1,35 @@
+/**
+ * Class description
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			9/1/17
+ */
+public  class PrimeNumber {
+
+	/**
+	 * Method desc
+	 * 
+	 * @param  parameter name type desc
+	 * @param  num Integer 
+	 * @return Integer desc
+	 */
+    public  Integer validateNumber(integer num) {
+    
+    Integer i,flag=0;
+                
+		for(i=2; i<=num/2; ++i) {
+			if(math.mod(num,i)==0) {
+            	flag=1;
+                break;
+			}
+        }
+
+    if (flag==0)
+       return 1;
+    else
+       return 0;
+    
+  
+    }
+}

@@ -1,0 +1,10 @@
+public with sharing class DerivedOverride extends Derived {
+
+public override void getDetail(){
+	system.debug("Overriden method");
+	
+	
+}
+
+
+}

@@ -1,0 +1,14 @@
+public with sharing class Unique {
+	
+	public Set<Integer> evaluateUnique(Integer[] numbers ) {
+		
+		
+		Set<Integer> uniqKeys = new Set<Integer>();
+		uniqKeys.addAll(Arrays.asList(numbers));
+		
+		return uniqKeys;
+	
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+public with sharing class Unique {
+	
+	public void evaluateUnique(Integer[] no) {
+		List<no> lst=new List<no>();
+		Set<lst> num=new Set<lst>();
+		
+		system.debug(num);
+		
+		
+	}
+
+}

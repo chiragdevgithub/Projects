@@ -1,0 +1,20 @@
+/**
+ * Class description
+ *Derived class is inherited from AbstractExample class.getDetail() is implemented here.
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			9/1/17
+ */
+
+
+
+
+
+
+public class  Derived extends AbstractExample{
+	
+	public virtual void getDetail(){
+		system.debug('THis is absract example');
+	}
+}
+	

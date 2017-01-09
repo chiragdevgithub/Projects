@@ -1,0 +1,27 @@
+/**
+ * Class description
+ *Shape is a virtual class which has width and height as data members and has getArea(width,height) as a method.
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			9/1/17
+ */
+
+
+
+
+ virtual class Shape {
+ integer width;
+ integer height;
+
+
+
+
+ virtual integer getArea(integer width,integer height)
+{
+	return width * height;
+}
+
+
+}
+
+

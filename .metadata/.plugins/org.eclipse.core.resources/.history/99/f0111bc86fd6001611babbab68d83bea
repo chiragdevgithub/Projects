@@ -1,0 +1,11 @@
+public with sharing class StringReplace {
+	
+		public void replaceString(String charact,String text) {
+			
+			system.debug(text);
+			String newText=text.replace('a',charact);
+			system.debug(newText);
+			
+		}
+	
+}

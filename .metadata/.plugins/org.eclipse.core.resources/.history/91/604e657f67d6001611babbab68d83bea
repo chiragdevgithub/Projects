@@ -1,0 +1,7 @@
+public class Derived extends AbstractExample{
+	
+	public override void getDetail(){
+		system.debug('THis is absract example');
+	}
+}
+	

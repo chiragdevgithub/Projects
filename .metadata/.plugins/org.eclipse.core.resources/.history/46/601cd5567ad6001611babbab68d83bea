@@ -1,0 +1,16 @@
+public class StringLength {
+	
+		public Integer lengthMessage(String message) {
+			Integer len=0;
+			
+			
+			String[] ar=message.toCharArray();
+			for(Character c : ar){
+			len++;
+			}
+			return len;
+		}
+
+
+
+}
