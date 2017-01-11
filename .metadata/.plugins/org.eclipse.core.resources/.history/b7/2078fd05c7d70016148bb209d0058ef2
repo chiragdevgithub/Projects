@@ -1,0 +1,17 @@
+/**
+ * To find the Active Users.
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			11/01/17				Initial version
+ */
+ 
+public with sharing class AssignActiveUsers {
+	public void findActive() {
+		map<ID,User> mapping=new map<ID,User>();
+		for (User users :[select Id, Name from User where isActive=true ] ){
+			mapping.put(users.Id,users);
+		}
+		system.debug(mapping);
+	}
+}

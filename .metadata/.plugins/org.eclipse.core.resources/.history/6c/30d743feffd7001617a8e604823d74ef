@@ -1,0 +1,42 @@
+/**
+ *To Delete Records of account inactive from last 90 days.
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			11/01/17				Initial version
+ */
+ 
+public with sharing class DMLExample {
+	public void deleteRecords(){
+		List<Account> accounts=[select Name,toLabel(Active__c) from Account where CreatedDate IN (LAST_90_DAYS ) and Active__c='no'];
+		system.debug(accounts);
+		delete accounts;
+		List<Account> accountCheck=[select Name,toLabel(Active__c) from Account where CreatedDate IN (LAST_90_DAYS ) and Active__c='no'];
+		system.debug(accountCheck);			
+	}
+	
+	public void insertLead(){
+		Lead[] leads = new List<Lead>();
+		Log__c[] logs=new List<Log__c>();
+		
+		for(Integer i=1;i<=100;i++) {
+	    	Lead records = new Lead(Company='ESPL',Status='Working-Contacted');
+	    	leads.add(records);
+		}
+			Database.SaveResult[] srList=Database.insert(leads,false);
+			system.debug(leads); 
+			for (Database.SaveResult sr : srList) {
+				if (sr.isSuccess()) {
+					system.debug('success'+ sr.getId());
+				}
+				else{
+					for(Database.Error err : sr.getErrors()) {
+					Log__c record=new Log__c(Error__c='BAD RECORD');
+					logs.add(record);
+					}
+				system.debug(logs);	
+				Database.insert(logs,false);
+				}	
+			}
+	}			
+}

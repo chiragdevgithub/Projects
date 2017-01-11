@@ -1,0 +1,13 @@
+/**
+ *To demonstrate Search using SOSL
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			11/01/17				Initial version
+ */
+public with sharing class SOSLExample {
+	public void evaluate(){
+		List<List<SObject>> searchList = [FIND 'test'IN Name FIELDS RETURNING Contact,Account,Lead,User];
+		system.debug(searchList);
+	}
+}

@@ -1,0 +1,17 @@
+/**
+ * Pallindrome class is to check whether a particular String is pallindrome or not by using isPalindrome method.
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			11/01/17				Initial version
+ */
+ 
+public with sharing class AssignActiveUsers {
+	public void findActive() {
+		map<Id,String> mapping=new map<Id,String>();
+		for (User users :[select Name from User where isActive=true ] ){
+			mapping.put(Id,users.Name);
+		}
+		system.debug(mapping);
+	}
+}

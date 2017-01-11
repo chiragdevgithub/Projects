@@ -1,0 +1,9 @@
+public with sharing class SampleAccount {
+	public void evaluate(){
+		Account a=[select Name from Account where name like 'a%'];
+		for (Account obj: a) {	
+			System.debug(obj);//Printing the Record fetched
+		}
+		
+	}
+}

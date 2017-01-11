@@ -1,0 +1,18 @@
+/**
+ *To Delete Records of account inactive from last 90 days.
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			11/01/17				Initial version
+ */
+ 
+public with sharing class DMLExample {
+	public void deleteRecords(){
+		List<Account> accounts=[select Name,isActive from Account where isActive=false and CreatedDate = LAST_90_DAYS ];
+		system.debug(accounts);
+		delete accounts;
+		system.debug(accounts);
+		
+		
+	}
+}

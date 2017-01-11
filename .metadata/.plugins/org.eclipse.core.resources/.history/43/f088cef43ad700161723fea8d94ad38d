@@ -1,0 +1,13 @@
+public with sharing class PersonAcc {
+	public void evaluateType(){
+		Account[] acc=[select name from Account where RecordType.Name IN ('Person Account')];
+		/*for (Account obj:acc) {	
+				System.debug(obj);//Printing the Record fetched	
+		}*/
+		Integer num=acc.size();
+		for(Integer i=0;i<num;i++){
+			system.debug(acc[i]);
+		}
+		
+	}
+}

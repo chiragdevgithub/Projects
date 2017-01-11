@@ -1,0 +1,35 @@
+/**
+ * PrimeNumber Class is used to find whether number is prime or not.
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			09/01/2017				Initial Draft
+ */
+public  class PrimeNumber {
+
+	/**
+	 * validateNumber(num) is used to find the num is whether prime or not. 
+	 * 
+	 * @param  parameter name type desc
+	 * @param  num Integer Accepting number. 
+	 * @return Integer desc
+	 */
+    public  Boolean validateNumber(Integer num) {
+    
+    Integer i,flag=0;
+                
+		for(i=2; i<=num/2; ++i) {
+			if(Math.mod(num,i)==0) {
+            	flag=1;
+                break;
+			}
+        }
+
+    if (flag==0)
+       return true;
+    else
+       return false;
+    
+  
+    }
+}

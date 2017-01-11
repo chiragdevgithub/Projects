@@ -1,0 +1,24 @@
+/**
+ *Update operation is Shown over here.
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			10/01/17				Initial Draft
+ */
+ 
+public with sharing class CampaignExample {
+	
+	public void ascendingSort(){
+		Campaign[] market=[select Name from Campaign order by Name asc limit 10];
+		for (Campaign obj:market) {	
+				System.debug(obj);//Printing the Record fetched	
+			}
+	}
+
+	public void descendingSort(){
+		Campaign[] market=[select Name from Campaign order by Name desc limit 10];
+			for (Campaign obj:market) {	
+				System.debug(obj);//Printing the Record fetched	
+			}
+	}
+
+}

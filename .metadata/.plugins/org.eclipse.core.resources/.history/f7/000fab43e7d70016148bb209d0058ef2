@@ -1,0 +1,15 @@
+/**
+ *To demonstrate Relationship and to traverse from parent to child.
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			11/01/17				Initial version
+ */
+
+public with sharing class ParentToChildDemo {
+	public void evaluate(){
+		List<Account> accounts=[select Name,(select Contact.Name,Contact.FirstName,Contact.LastName
+		from Account.Contacts where Name='John') from Account  ];
+		system.debug(accounts);
+	}
+}

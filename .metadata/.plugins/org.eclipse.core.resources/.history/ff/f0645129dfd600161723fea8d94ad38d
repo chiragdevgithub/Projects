@@ -1,0 +1,21 @@
+/**
+ * Class description
+ * StringReplace is class where the occurences of 'a' can be replaced by other character 
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			09/01/17				Initial Draft
+ */
+
+public with sharing class StringReplace {
+	
+	/**
+	*replaceString(charact,text) is a method where a character is inserted where there is a occurence of 'a' in String text.
+	**/	
+	
+	public String replaceString(String charact,String text) {
+		system.debug(text);
+		String newText=text.replace('a',charact);
+		return newText;
+	}
+	
+}

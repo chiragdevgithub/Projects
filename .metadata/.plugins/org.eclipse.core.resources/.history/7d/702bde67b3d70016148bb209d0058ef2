@@ -1,0 +1,24 @@
+/**
+ * Pallindrome class is to check whether a particular String is pallindrome or not by using isPalindrome method.
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			09/01/17					Initial version
+ */
+
+
+
+public with sharing class MapStructure {
+	public void evaluation(){
+			map<ID,List<Opportunity>> m = new map<ID,List<Opportunity>>();
+		List<Opportunity> opp=[select Id,Account.Id,name from Opportunity];
+		
+		for (Opportunity op : opp ){
+		m.put(op.Id,opp);
+		
+		}
+		
+		system.debug(m);
+		
+		}		
+	}

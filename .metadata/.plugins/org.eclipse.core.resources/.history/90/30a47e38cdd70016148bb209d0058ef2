@@ -1,0 +1,15 @@
+/**
+ *To show the demo of Map Collection and to show all account records selected in particular year.
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			11/01/17				Initial version
+ */
+ 
+public with sharing class AssignBillingState {
+	public void evaluate(){
+		List<Account> accounts=[select Id, Name,BillingAddress from Account where Billing_State__c NOT IN ('Maharashtra','Kerala')
+		order by BillingAddress desc limit 10000];
+		system.debug(accounts);
+	}
+}

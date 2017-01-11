@@ -1,0 +1,12 @@
+public with sharing class PersonAcc {
+	public void evaluateType(){
+		Account[] acc=[select name from Account where recordtype='person account'];
+		for (Account obj:acc) {	
+				System.debug(obj);//Printing the Record fetched	
+		}
+		for(Integer i=0;i<acc.length;i++){
+			system.debug(acc[i]);
+		}
+		
+	}
+}

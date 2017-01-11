@@ -1,0 +1,19 @@
+public with sharing class SampleAccount {
+	public void evaluate(){
+		Integer count=0;
+		List<Account> acc=[select Name from Account where name like 'a%'];
+		for (Account obj: acc) {	
+			System.debug(obj);//Printing the Record fetched
+			
+		}
+		List<Account.Acc.Name> = 'Updated via Update DML operation';
+		update acc;
+		
+		for (Account obj: acc) {	
+			System.debug(obj);//Printing the Record fetched
+			count++;
+		}
+		
+		system.debug('No of records'+count);
+	}
+}
