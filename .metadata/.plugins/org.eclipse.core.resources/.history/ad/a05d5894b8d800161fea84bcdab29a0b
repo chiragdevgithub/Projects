@@ -1,0 +1,13 @@
+trigger CloneLead on Lead (after insert) {
+
+
+    List<Lead> clone = new List<Lead>();
+
+    for (Lead leads : Trigger.new) {
+        clone.add(new Lead());
+    }
+
+    insert  clone;
+
+
+}

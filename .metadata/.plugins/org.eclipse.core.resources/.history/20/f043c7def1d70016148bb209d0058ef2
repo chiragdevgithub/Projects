@@ -1,8 +1,0 @@
-public with sharing class DMLExample {
-	public void deleteRecords(){
-		List<Account> accounts=[select Name from Account where isActive=false and CreatedDate = LAST_90_DAYS ];
-		delete accounts;
-		system.debug(accounts);
-		
-	}
-}

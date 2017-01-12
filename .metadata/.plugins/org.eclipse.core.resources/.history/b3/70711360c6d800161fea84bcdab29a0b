@@ -1,0 +1,10 @@
+trigger TaskAccountUpdate on Account (after insert) {
+	if(Trigger.isAfter && Trigger.isInsert ) {
+		List<Task> tasks=new List<Task>();
+		
+		List<Account> accounts = [select Name from Account];  
+		for(Task allTasks:tasks){
+			tasks.add(new Task(Subject='meeting with '+accounts));
+		}
+	}
+}

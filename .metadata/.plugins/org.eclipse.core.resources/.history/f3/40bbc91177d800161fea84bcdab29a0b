@@ -1,0 +1,25 @@
+/**
+ *To get Grouped result of sum as per this fiscal result.
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			11/01/17				Initial version
+ */
+ 
+public with sharing class AggregateExample {
+	public void getAggregate(){
+		AggregateResult[] groupedResults=[select sum(amount) from Opportunity where isClosed=true and CreatedDate=THIS_FISCAL_YEAR];
+		
+	}
+	public void getDistinct(){
+		Integer i=0;
+		List<Lead> record=[select company,COUNT_DISTINCT(LEADSOURCE) from LEAD group by company having count(LEADSOURCE)>10];
+		for(Lead accounts:record){
+			system.debug(''+i+' '+acc);
+			i++;	
+		}
+		
+	}
+	
+	
+}

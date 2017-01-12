@@ -1,0 +1,3 @@
+trigger TaskAccount on A__c (after insert) {
+
+}

@@ -8,11 +8,35 @@
  
 public with sharing class AggregateExample {
 	public void getAggregate(){
-		AggregateResult[] groupedResults=[select sum(amount) from Opportunity where isClosed=true and CreatedDate=THIS_FISCAL_YEAR];
+		Integer key;
+		Double value;
+		map<Integer,Double> mapping=new map<Integer,Double>();
+		List<AggregateResult> groupedResults=[select sum(amount) total,FiscalYear from Opportunity  where isClosed=true group by FiscalYear ];
+		for(AggregateResult result:groupedResults){
+			key=(Integer)result.get('FiscalYear');
+			value=(Double)result.get('total');
+			if(!mapping.containsKey(key)){
+				mapping.put(key,value);
+			}
+		}
+		
+		for(Integer mappings:mapping.keySet()){
+			system.debug(mappings+' '+mapping.get(mappings));
+		}
 		
 	}
 	public void getDistinct(){
-		AggregateResult[] groupedResults=[select COUNT_DISTINCT(amount) from Opportunity where isClosed=true and CreatedDate=THIS_FISCAL_YEAR];
+		Integer i=0;
+		AggregateResult[] record=[select company,COUNT_DISTINCT(LEADSOURCE) from LEAD group by company having count(LEADSOURCE)>10];
+		for(AggregateResult accounts:record){
+			system.debug(''+i+' '+accounts);
+			i++;	
+		}
+		
+	}
+	
+	public void getLeads(){
+
 		
 	}
 	

@@ -1,0 +1,39 @@
+/**
+ *To get Grouped result of sum as per this fiscal result.
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			11/01/17				Initial version
+ */
+ 
+public with sharing class AggregateExample {
+	public void getAggregate(){
+		Integer key;
+		Double value;
+		map<Integer,Double> mapping=new map<Integer,Double>();
+		List<AggregateResult> groupedResults=[select sum(amount) total,FiscalYear from Opportunity where isClosed=true and FiscalYear=THIS_FISCAL_YEAR];
+		for(AggregateResult result:groupedResults){
+			key=(Integer)result.get('Fiscal Year');
+			val=(Double)result.get('total');
+			if(!mapping.containsKey(key)){
+				mapping.put(key,value);
+			}
+		}
+		
+		for(Integer mappings:mapping.keySet()){
+			system.debug(mappings+' '+mapping.get(mappings));
+		}
+		
+	}
+	public void getDistinct(){
+		Integer i=0;
+		AggregateResult[] record=[select company,COUNT_DISTINCT(LEADSOURCE) from LEAD group by company having count(LEADSOURCE)>10];
+		for(AggregateResult accounts:record){
+			system.debug(''+i+' '+accounts);
+			i++;	
+		}
+		
+	}
+	
+	
+}

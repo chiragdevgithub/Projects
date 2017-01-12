@@ -1,0 +1,7 @@
+trigger TriggerDemoOne on Lead (before insert) {   
+	List<Lead> leads = new List<Lead>();    
+	for( Lead leadss : Trigger.new){
+		leads.add(new Lead());
+		SampleController.applyCompany(leads);           
+    }
+}

@@ -1,0 +1,55 @@
+/**
+ *Trigger Name:-AllAccounts
+ *Demonstration of all events.
+ *
+ * Revision History
+ *	Version			Author			Date(dd/mm/yyyy)		Comments
+ *		1.0			Chirag			11/01/17					Initial version
+ */
+
+
+trigger AllAccounts on Account (after delete, after insert, after undelete, 
+after update, before delete, before insert, before update) {
+	if (Trigger.isInsert) {
+        if (Trigger.isBefore) {
+            system.debug(Trigger.new);
+            system.debug(Trigger.old);
+            system.debug(Trigger.NewMap);
+            system.debug(Trigger.OldMap);
+        } else if (Trigger.isAfter) {
+            system.debug(Trigger.new);
+            system.debug(Trigger.old);
+            system.debug(Trigger.NewMap);
+            system.debug(Trigger.OldMap);
+        }        
+    }
+    else if (Trigger.isDelete) {
+       if (Trigger.isBefore) {
+            system.debug(Trigger.new);
+            system.debug(Trigger.old);
+            system.debug(Trigger.NewMap);
+            system.debug(Trigger.OldMap);
+        } else if (Trigger.isAfter) {
+            system.debug(Trigger.new);
+            system.debug(Trigger.old);
+            system.debug(Trigger.NewMap);
+            system.debug(Trigger.OldMap);
+        } 
+    }
+
+	else if (Trigger.isUpdate) {
+       if (Trigger.isBefore) {
+            system.debug(Trigger.new);
+            system.debug(Trigger.old);
+            system.debug(Trigger.NewMap);
+            system.debug(Trigger.OldMap);
+        } else if (Trigger.isAfter) {
+            system.debug(Trigger.new);
+            system.debug(Trigger.old);
+            system.debug(Trigger.NewMap);
+            system.debug(Trigger.OldMap);
+        } 
+    }
+
+
+}

@@ -1,0 +1,19 @@
+trigger SampleAccount on Account (before update) {
+ 
+	 	
+	 	List<Account> newTriggers = Trigger.new;
+	 	
+		system.debug(newTriggers);
+		
+		map<Id,Account> newTriggerMap = Trigger.NewMap;
+		system.debug(newTriggerMap);
+		
+	    List<Account> oldTriggers = Trigger.old;
+		system.debug(oldTriggers);
+	
+		map<Id,Account> oldTriggerMap = Trigger.OldMap;
+		system.debug(oldTriggerMap);
+		
+
+
+}

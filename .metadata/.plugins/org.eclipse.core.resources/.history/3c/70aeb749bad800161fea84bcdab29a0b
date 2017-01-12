@@ -1,0 +1,12 @@
+trigger CloneLead on Lead (before insert) {
+
+	if(RecursionControl.runOnce()){
+		List<Lead> clone = new List<Lead>();
+ 		for (Lead leads : Trigger.new) {
+       		 clone.add(new Lead(LastName= leads.LastName,Company=leads.Company));
+   		 }
+
+    insert  clone;
+
+	}
+}

@@ -1,0 +1,14 @@
+trigger TaskAccountUpdate on Account (after insert) {
+	if(Trigger.isAfter && Trigger.isInsert ) {
+		List<Task> tasks=new List<Task>();
+		
+		for(Account a : Trigger.New) {
+    
+		Task t = new Task();
+		t.subject='Meeting with '+a.Name;
+    
+		}
+		insert t;
+		system.debug('success');
+	}
+}

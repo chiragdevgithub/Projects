@@ -1,0 +1,11 @@
+trigger TriggerDemoOne on Account (before update) {   
+	 	
+	 	List<Account> newTriggers = Trigger.new;
+	 	
+		system.debug(newTriggers);
+		
+	    List<Account> oldTriggers = Trigger.old;
+		system.debug(oldTriggers);
+	
+
+	}

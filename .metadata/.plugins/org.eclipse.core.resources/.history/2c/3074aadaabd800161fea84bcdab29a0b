@@ -1,0 +1,7 @@
+public with sharing class SampleController {
+		public static void applyCompany(List<Lead> leads) {
+		 for (Lead indexLeads :leads){
+         	indexLeads.Company='ESPL';
+         }
+    }
+}

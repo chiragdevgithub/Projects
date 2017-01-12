@@ -1,0 +1,3 @@
+trigger TaskAccountUpdate on Account (after insert) {
+
+}
